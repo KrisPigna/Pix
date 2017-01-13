@@ -1,0 +1,68 @@
+body{
+    background-color: aliceblue;
+}
+
+.header{
+    margin-top: 20px;
+    width: 130px;
+    height: 90px;
+    background-image: url(images/title.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.sign-in {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: 1;
+    border-bottom-right-radius: 1;
+    background-image: url(images/sign_in_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.sign-up {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: 1;
+    border-bottom-right-radius: 1;
+    background-image: url(images/sign_up_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.is-available {
+    color: green;
+    font-weight: bold;
+}
+
+.not-available {
+    color: red;
+    font-weight: bold;
+}
+
+#toTop {
+    padding: 5px 3px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    right: 5px;
+    display: none;
+}
